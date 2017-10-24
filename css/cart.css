@@ -1,0 +1,129 @@
+body{font:14px "microsoft yahei",Arial,sans-serif;
+  color:#999;
+  margin:0;
+  padding:0;
+  position: relative;
+}
+
+ul,p,h1,h2,h3,h4,h5,h6,dl,dd{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+input{border:0;}
+
+img{
+  vertical-align: middle;}
+
+a{color:#999;
+  text-decoration:none;}
+#cartheader{
+  background-color: black;
+  width:100%;
+}
+#cartheader img{
+  margin-left: 300px;
+}
+#cartheader h3{
+  display: inline-block;
+  color: #fff;
+  margin-left: 900px;
+}
+#cartsection{
+  width:1200px;
+  margin: 50px auto;
+  min-height: 550px;
+}
+#cartsection:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+#cartsection .tab-header{
+  color:#000;
+  font-size: 16px;
+}
+#cartsection .tab-header a{
+  display: inline-block;
+  float:right;
+}
+#cartsection .tab-body{
+  color:#000;
+  font-size: 14px;
+  background-color:#ECECEC ;
+  height:50px;
+}
+table {
+  width:1200px;
+  background: #ECECEC;
+}
+table thead{
+  text-align: center;
+}
+table tbody{
+  background: #FDF0EF;
+}
+table tbody td{
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+table thead td:nth-child(1){
+  width:50px;
+}
+table .table-wid{
+  width:180px;
+}
+ .bac{
+   font-size: 20px;
+  color: red;
+}
+ .jie{
+   float: right;
+ }
+ .jie p{
+   margin-top: 10px;
+ }
+ table tbody td input{
+   outline: none;
+   cursor: pointer;
+   background: #fff;
+   color: #000;
+   border:1px solid #e5e5e5;
+ }
+table tbody td .shopnum{
+  margin: 0 5px;
+  display: inline-block;
+  color: #000;
+
+}
+#carttofixed{
+  display: none;
+  position: absolute;
+  width:100%;
+  height:100%;
+  background: rgba(0,0,0,0.7);
+}
+#carttofixed01{
+
+  width:300px;
+  height:200px;
+  margin:350px auto;
+  background: #fff;
+  border-radius:10px;
+  text-align: center;
+  border: 1px solid #fff;
+}
+#carttofixed01 h2{
+  color:red;
+  margin-top:58px;
+}
+#carttofixed01 input{
+  background: #0a0;
+  margin-top: 16px;
+  padding:10px 74px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}

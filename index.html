@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="UTF-8">
+   <title>寺库网</title>
+   <link rel="stylesheet" href="css/indexcss.css"/>
+   <link rel="stylesheet" href="css/jquery-ui.css"/>
+   <link rel="stylesheet" href="css/animate.css"/>
+</head>
+<body>
+   <div id="modal">
+      <div id="modal01">
+         <span class="closed"></span>
+         <div id="modal02">
+            <div id="modal03">
+               <img src="img/logo1.jpg"/>
+            </div>
+            <div id="modal04">
+               <h2>欢迎登录</h2>
+
+               <form id="form-login">
+               <div class="user"><input type="text" placeholder="用户名"  id="username"/></div>
+               <div class="pwd"><input type="password" placeholder="密码" id="userpwd"/></div>
+               </form>
+               <div class="check"><input type="checkbox"/>记住账号</div>
+               <div class="btns"><input type="button" value="立即登录" id="denglu"/></div>
+               <p class="hezuo"><a href="#">使用合作网站立即登录</a></p>
+               <p class="scipt"><a href="#"><span></span><b></b></a></p>
+               <p class="chance">
+                  还不是寺库会员？<a href="zhuce.html"><span>免费注册</span></a><span>忘记密码？</span>
+               </p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="fixed">
+         <div id="f1"><a href="#main-header">直邮</a></div>
+         <div id="f2"><a href="#mao2">闪购</a></div>
+         <div id="f3"><a href="#mao3">包袋</a></div>
+         <div id="f4"><a href="#mao4">腕表</a></div>
+         <div id="f5"><a href="#mao5">服装</a></div>
+         <div id="f6"><a href="#mao6">鞋靴</a></div>
+         <div id="f7"><a href="#mao7">配饰</a></div>
+         <div id="f8"><a href="#mao8">首饰</a></div>
+         <div id="f9"><a href="#mao9">家居</a></div>
+         <div id="f10"><a href="#">返回顶部</a></div>
+
+   </div>
+   <!--页头部分-->
+   <header id="top">
+      <!--主页的头部盒子-->
+      <div id="top-box">
+         <ul class="rt">
+            <li>欢迎光临寺库</li>
+            <li id="deng"><a href="#">请登录</a></li>
+            <li><a href="zhuce.html">免费注册</a></li>
+            <li>|</li>
+            <li><a href="#">我的订单</a></li>
+            <li class="top-drop">客户服务<span class="top-dropser"></span>
+                  <ul id="top-drop-down">
+                     <li>养护中心</li>
+                     <li>帮助中心</li>
+                     <li>贵宾专线</li>
+                     <li>400-87-56789</li>
+                  </ul>
+            </li>
+            <li><a href="#">媒体聚焦</a></li>
+            <li>|</li>
+            <li><a href="cart.html"><span class="shopcar"></span>购物车</a></li>
+         </ul>
+
+      </div>
+      <div class="top-all">
+      <!--主页的logo-->
+      <div id="top-logo">
+         <img src="img/logo.jpg">
+         <img src="img/23583b0081aa4a428c49c4f55ad9ee07.gif" alt=""/>
+      </div>
+      <!--顶部搜索框-->
+      <div id="top-search">
+         <div id="search-box">
+            <input type="text" placeholder="DIOR/迪奥"/>
+            <a href="#">搜索</a>
+         </div>
+         <div id="search-text">
+            <ul>
+               <li><a href="#">千叶珠宝品牌入驻</a></li>
+               <li><a href="#">秋冬男装满1000减150</a></li>
+               <li><a href="#">大牌男鞋断码清仓</a></li>
+               <li><a href="#">Valention2000元起</a></li>
+               <li><a href="#">男士围巾秋季首选</a></li>
+            </ul>
+         </div>
+      </div>
+
+      <!--二维码图片-->
+      <div class="top-app">
+         <p>下载寺库APP</p>
+         <img src="img/app1.jpg" style="width:75px" >
+      </div>
+      </div>
+      <!--头部导航-->
+      <div id="top-nav">
+
+         <ul>
+            <li class="top-nav-all">全部奢品</li>
+            <ul>
+            <li><a href="#">首页</a></li>
+               <li><a href="#">海外直邮 <span></span></a></li>
+               <li><a href="#">闪购SALE</a></li>
+               <li><a href="#">我卖我拍</a></li>
+               <li><a href="#">品牌旗舰店</a></li>
+               <li><a href="#">中国精品</a></li>
+               <li><a href="#">男士</a></li>
+               <li><a href="#">女士</a></li>
+               <li><a href="#">豪车</a></li></ul>
+         </ul>
+         <div id="top-fixed">
+            <ul>
+               <li>
+                  <dl>
+                     <dt>包袋</dt>
+                     <dd><a href="#">路易威登</a><a href="#"> 古驰</a> <a href="#">普拉达</a></dd>
+                  </dl>
+               </li>
+               <li>
+                  <dl>
+                     <dt>腕表</dt>
+                     <dd><a href="#">欧米茄</a> <a href="#">卡地亚</a><a href="#"> 万国</a></a></dd>
+                  </dl>
+               </li>
+               <li>
+                  <dl>
+                     <dt>首饰</dt>
+                     <dd><a href="#">宝格丽</a> <a href="#">卡地亚</a> <a href="#">蒂芙尼</a></dd>
+                  </dl>
+               </li>
+               <li>
+                  <dl>
+                     <dt>服装鞋靴</dt>
+                     <dd><a href="#">男士外套</a> <a href="#">男士针织</a><a href="#"> 休闲鞋</a></dd>
+                  </dl>
+               </li>
+               <li>
+                  <dl>
+                     <dt>配饰</dt>
+                     <dd><a href="#">腰带</a> <a href="#">围巾</a> <a href="#">丝巾</a> <a href="#">眼睛</a></dd>
+                  </dl>
+               </li>
+               <li>
+                  <dl>
+                     <dt>家居生活</dt>
+                     <dd><a href="#">冬被</a> <a href="#">茶具</a> <a href="#">酒水</a> <a href="#">小家电</a></dd>
+                  </dl>
+               </li>
+               <li>
+                  <dl>
+                     <dt>母婴美妆</dt>
+                     <dd><a href="#">护肤</a> <a href="#">彩妆</a> <a href="#">香氛</a> <a href="#">母婴</a></dd>
+                  </dl>
+               </li>
+               <li>
+                  <dl>
+                     <dt>户外运动</dt>
+                     <dd><a href="#">冲锋衣</a> <a href="#">跑步鞋</a> <a href="#">健身</a></dd>
+                  </dl>
+               </li>
+               <li>
+                  <dl>
+                     <dt>豪车频道</dt>
+                     <dd><a href="#">进口车</a> <a href="#">精品</a> <a href="#">儿童车品</a></dd>
+                  </dl>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </header>
+   <!--导航部分-->
+   <nav id="nav">
+      <!--<div id="nav-left"></div>-->
+      <div id="nav-middle">
+
+         <div id="navimg">
+            <ul id="imgs">
+            </ul>
+         </div>
+         <ul id="indexs">
+         </ul>
+
+      </div>
+      <!--<div id="nav-right"></div>-->
+   </nav>
+   <!--主体部分-->
+   <section id="main">
+      <div id="main-header">
+         <div class="transiti"></div>
+         <a href="#"><img src="img/4027af909838416986d5189d4fc82825.jpg" class="change animated" id="mainheaderimg"></a><a href="#"><img src="img/210f4f1922d943ea817f15a9453aedfc.jpg" class="change animated"/></a><a href="#"><img src="img/fd521ee6ac964e82a68ed552713c1d9a.jpg" class="change animated"/></a>
+      </div>
+      <div class="floor">
+         <div class="m-tit">
+            <h1 style="text-align: center">海外直邮GLOBAL</h1>
+            <div>
+               <ul>
+                  <li><span></span>全球好货</li>
+                  <li><span></span>原装正品</li>
+                  <li><span></span>海外直邮</li>
+                  <li><span></span>自有保税仓</li>
+               </ul>
+            </div>
+         </div>
+         <div class="floor01">
+            <div class="floor01-topl lf">
+               <div class="floor01-top">
+                  <a href="#"> <img src="img/f8430ce865334805809d7637270918de.jpg" class="change"/></a>
+                  <a href="#"><img src="img/64c59559f0154e8e8c4059f2c50b6b73.jpg" class="change"/></a>
+               </div>
+               <div class="floor01-bot">
+                  <ul>
+                     <li>
+                        <a href="#"><img src="img/437d71c9ddb24a7caf8940651d6500ef.jpg" class="change animated"/></a>
+                        <span></span>
+                        <dl class="line">
+                           <dt>香港 直供</dt>
+                           <dd>FENDI芬迪 女士黑色时尚双肩包161022</dd>
+                           <dd>￥11,255</dd>
+                        </dl>
+                     </li>
+                     <li>
+                        <a href="#"><img src="img/16911815.jpg" class="change animated"/></a>
+                        <span></span>
+                        <dl class="line">
+                           <dt>欧洲 直供</dt>
+                           <dd>DIESEL/迪赛 男士 拉链装饰 口袋装饰 外套 EB</dd>
+                           <dd>￥8,039</dd>
+                        </dl>
+                     </li>
+                     <li>
+                        <a href="#"><img src="img/15325544.jpg" class="change animated"/></a>
+                        <span></span>
+                        <dl class="line">
+                           <dt>美国 直供</dt>
+                           <dd>Polo Ralph Lauren 拉夫劳伦马球红色男士连帽衫</dd>
+                           <dd>￥1,118</dd>
+                        </dl>
+                     </li>
+                     <li>
+                        <a href="#"><img src="img/14288187.jpg" class="change animated"/></a>
+                        <span></span>
+                        <dl class="line">
+                           <dt>韩国 直供</dt>
+                           <dd>MILLOGREM piccola pin tuck系列黑色阔腿裤</dd>
+                           <dd>￥813</dd>
+                        </dl>
+                     </li>
+                     <li>
+                        <a href="#"><img src="img/15575872.jpg" class="change animated"/></a>
+                        <span></span>
+                        <dl class="line">
+                           <dt>新西兰 直供</dt>
+                           <dd>Swisse/Swisse 钙+维生素D预防骨质疏松青年成</dd>
+                           <dd>￥216</dd>
+                        </dl>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="floor01-topr lf">
+               <p style="margin:14px 0; text-align: right;width:100%"><a href="#">更多海外品牌>></a></p>
+               <ul>
+                  <li>
+                     <div class="zhe">
+                        <a href="#">
+                           <ul class="zhekou">
+                              <li><img src="img/2ac0e984f66a45589ceddc29ac890b4a.jpg" class="change"/></li>
+                              <li>1.2折起</li>
+                           </ul>
+                        </a>
+
+                     </div>
+                     <p><a href="#">大牌秋冬鞋靴</a></p>
+
+                  </li>
+                  <li>
+                     <div class="zhe">
+                        <a href="#">
+                           <ul class="zhekou">
+                              <li><img src="img/ab176f9e9b1947eeb4cd58e619f3023d.jpg" class="change"/></li>
+                              <li>6折起</li>
+                           </ul>
+                        </a>
+
+                     </div>
+                     <p><a href="#">EONE季中折扣</a></p>
+
+                  </li>
+                  <li>
+                     <div class="zhe" id="mao2">
+                        <a href="#">
+                           <ul class="zhekou">
+                              <li><img src="img/aeda84f55b8a42269c9c51b59f5b4583.jpg" class="change"/></li>
+                              <li>2.5折起</li>
+                           </ul>
+                        </a>
+
+                     </div>
+                     <p><a href="#">男装季中折扣</a></p>
+
+                  </li>
+                  <li style="width:176px;">
+                     <div class="zhe">
+                        <a href="#">
+                           <ul class="zhekou">
+                              <li><img src="img/zheng.jpg" class="change"/></li>
+                              <li>2折起</li>
+                           </ul>
+                        </a>
+
+                     </div>
+                     <p><a href="#">正官庄</a></p>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <!--主题广告-->
+      <div class="floor" >
+         <div class="m-tit">
+            <h1 style="text-align: center">闪购SALE</h1>
+            <div><span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;每天十点准时上新&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span></span></div>
+         </div>
+         <div class="floor02 clear">
+            <p style="margin:-45px 0 15px 0; text-align:right;width:100%"><a href="#">更多海外品牌>></a></p>
+            <div class="floor02-top clear">
+               <div class="floor02-topl lf">
+                  <a href="#"> <img src="img/fddfe21524e2462982d8626e58008d76.jpg" class="change animated"/></a>
+               </div>
+               <a href="#"  class="topl-add"><img src="img/zao.jpg"/></a>
+               <div class="floor02-topm lf" style="width: 375px">
+                  <a href="#"><img src="img/c39378b2253b4c6687d8d8f372aa0f28.jpg" class="change animated"/></a>
+                  <a href="#"><img src="img/3f09f3ad00684553b7624fcd0407d745.jpg" class="change animated"/></a>
+               </div>
+               <a href="#" class="topm-add1">
+                  <p style="height: 21px">&lt低调奢华&gtArmain包袋专场</p>
+                  <p style="font-size: 18px;font-weight: bold;">3折起</p>
+                  <!--<h4 style="display: inline-block">3折起</h4>-->
+               </a>
+               <a href="#" class="topm-add2">
+                  <p style="height: 21px">&lt优雅质简&gtDW腕表专场</p>
+                  <p style="font-size: 18px;font-weight: bold;">6折起</p>
+               </a>
+
+               <div class="floor02-topr lf">
+                  <ul>
+                     <li>
+                        <a href="#"><img src="img/4d3e600670ea4aef8a9d94f6122a4022.jpg" class="change animated"/></a>
+                        <dl class="line">
+                           <dt>Swarovski吊坠</dt>
+                           <dd>￥1,564</dd>
+                        </dl>
+                     </li>
+                     <li>
+                        <a href="#"><img src="img/9eccf189ad074ba2bdcc41e4d76984d7.jpg" class="change animated"/></a>
+                        <dl class="line">
+                           <dt>HUGO BOSS</dt>
+                           <dd>￥1,039</dd>
+                        </dl>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div id="mao3" class="floor02-bot clear">
+              <ul>
+                 <li>
+                    <div class="zhebot">
+                       <a href="#">
+                          <ul class="zhekoubot">
+                             <li><img src="img/f58eda93fca94ae6afe4ea29c06da7c8.jpg" class="change"/></li>
+                             <li>1.2折起</li>
+                          </ul>
+                       </a>
+                    </div>
+                    <p>&lt绝不平凡&gt腕表专场</p>
+                 </li>
+                 <li>
+                    <div class="zhebot">
+                       <a href="#">
+                          <ul class="zhekoubot">
+                             <li><img src="img/f58eda93fca94ae6afe4ea29c06da7c8.jpg" class="change"/></li>
+                             <li>3折起</li>
+                          </ul>
+                       </a>
+                    </div>
+                    <p>&lt魅力工艺&gt男装专场</p>
+                 </li>
+                 <li>
+                    <div class="zhebot">
+                       <a href="#">
+                          <ul class="zhekoubot">
+                             <li><img src="img/ac66d6c0513043f5883907830d0e7d9d.jpg" class="change"/></li>
+                             <li>3.2折起</li>
+                          </ul>
+                       </a>
+                    </div>
+                    <p>&lt贵族文化&gt包袋专场</p>
+                 </li>
+                 <li>
+                    <div class="zhebot">
+                       <a href="#">
+                          <ul class="zhekoubot">
+                             <li><img src="img/fbff3a63c9ef4bc2908f2fac44d1e534.jpg" class="change"/></li>
+                             <li>5.2折起</li>
+                          </ul>
+                       </a>
+                    </div>
+                    <p>&lt商务精英&gt男鞋专场</p>
+                 </li>
+                 <li>
+                    <div class="zhebot">
+                       <a href="#">
+                          <ul class="zhekoubot">
+                             <li><img src="img/f0737562d1f04576a5ead14202cb4618.jpg" class="change"/></li>
+                             <li>5折起</li>
+                          </ul>
+                       </a>
+                    </div>
+                    <p>&lt现代气息&gt女装专场</p>
+                 </li>
+                 <li>
+                    </a>
+                    <div class="zhebot">
+                       <a href="#">
+                          <ul class="zhekoubot">
+                             <li><img src="img/2c8174e81cfa40e18115729638e8d098.jpg" class="change"/></li>
+                             <li>2折起</li>
+                          </ul>
+                       </a>
+                    </div>
+                    <p>&lt法式魅力&gtR美妆专场</p>
+                 </li>
+              </ul>
+            </div>
+         </div>
+      </div>
+      <div class="floor">
+         <div class="m-tit">
+            <h1 style="text-align: center">商城AMLL</h1>
+            <div><span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;今日上新1782单&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span></span></div>
+         </div>
+         <div class="floor03 clear" id="maoa">
+            <div class="floor-searchTop">
+               <ul>
+                  <li>包袋</li>
+                  <li>HERMES</li>
+                  <li>CHANEL</li>
+                  <li>LV</li>
+                  <li>PRADA</li>
+                  <li>GUCCI</li>
+                  <li>COACH</li>
+                  <li>BURBERRY</li>
+                  <li><a href="#">更多海外品牌>></a></li>
+               </ul>
+            </div>
+            <div class="floor-banner">
+               <div class="banner-left lf">
+                  <a href="baodai.html"><img src="img/802e48b053074c92b74ea786daa66c0b.jpg" class="change"/></a>
+                  <a href="#" class="banner-add">
+                     <h3>200元起</h3>
+                     <h3>清仓 5折起</h3>
+                     <h3 style="height: 21px">铆钉包我只认Valentino</h3>
+                  </a>
+               </div>
+               <div class="banner-middle lf">
+                  <a href="#"><img src="img/9e5467d0760d41268fba29e8c8e99538.jpg" class="change "/></a>
+                  <div class="bannermf">
+                     <h4>GUCCI/古驰</h4>
+                     <p>品牌限时特惠</p>
+                  </div>
+
+               </div>
+               <div class="banner-right lf">
+                  <a href="#"><img src="img/ff23a4573eb14c2fa25969c176dffc3d.jpg"class="change"/></a><a href="#"><img src="img/ff23a4573eb14c2fa25969c176dffc3d.jpg" class="change"/></a><a href="#"><img src="img/a7553627e8694506b3b9fd1aa6f4901a.jpg"class="change"/></a><a href="#"><img src="img/ff23a4573eb14c2fa25969c176dffc3d.jpg"class="change"/></a>
+                  <div class="bannerrf5 bannerr">
+                     <h4>Michael Kors/迈克.科尔斯</h4>
+                  </div>
+                  <div class="bannerrf4 bannerr">
+                     <h4>MiuMiu/缪缪</h4>
+                     <p>品牌特惠</p>
+                  </div>
+                  <div class="bannerrf3 bannerr">
+                     <h4>FENDI/芬迪</h4>
+                  </div>
+                  <div class="bannerrf2 bannerr">
+                     <h4>BALLY/巴利</h4>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="floor03 clear" id="mao4">
+            <div class="floor-searchTop">
+               <ul>
+                  <li>腕表</li>
+                  <li>百达翡丽</li>
+                  <li>劳力士</li>
+                  <li>卡地亚</li>
+                  <li>欧米茄</li>
+                  <li>浪琴</li>
+                  <li>积家</li>
+                  <li>万国</li>
+                  <li><a href="#">更多腕表>></a></li>
+               </ul>
+            </div>
+            <div class="floor-banner">
+               <div class="banner-left lf">
+                  <a href="#"><img src="img/10d38e5467504b4d8ffcc79e4ad79d26.jpg" class="change"/></a>
+                  <a href="#" class="banner-add">
+                     <h3>5000元起</h3>
+                     <h3>清仓 5折起</h3>
+                     <h3 style="height: 21px">5000元超值腕表推荐</h3>
+                  </a>
+               </div>
+               <div class="banner-middle lf">
+                  <a href="#"><img src="img/40799ae1cc1e4d8898f17aab1727e5cc.jpg" class="change"/></a>
+                  <div class="bannermf">
+                     <h4>Breguet/宝玑</h4>
+                     <p>限时特惠</p>
+                  </div>
+
+               </div>
+               <div class="banner-right lf">
+                  <a href="#"><img src="img/efcea698a85c4006878ca2434383f2b0.jpg"class="change"/></a><a href="#"><img src="img/9d6d1dc8d5f84e96905d6387b12662ac.jpg" class="change"/></a><a href="#"><img src="img/73ed22c937714b9d8c876c994fb75f71.jpg"class="change"/></a><a href="#"><img src="img/6ac1424f2ed645d68a1914c238d5e93e.jpg"class="change"/></a>
+                  <div class="bannerrf5 bannerr">
+                     <h4>NOMOS/诺莫斯</h4>
+                     <p>品牌精选</p>
+                  </div>
+                  <div class="bannerrf4 bannerr">
+                     <h4>Franck Muller</h4>
+                     <p>品牌特惠</p>
+                  </div>
+                  <div class="bannerrf3 bannerr">
+                     <h4>Hamilton/汉密尔顿</h4>
+                     <p>品牌精选</p>
+                  </div>
+                  <div class="bannerrf2 bannerr">
+                     <h4>COACH/蔻驰</h4>
+                     <p>品牌精选</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="floor03 clear" id="mao5">
+            <div class="floor-searchTop">
+               <ul>
+                  <li>服装</li>
+                  <li>BURBERRY</li>
+                  <li>HUGO BOSS</li>
+                  <li>VERSACE</li>
+                  <li>Dolce&Gabbana</li>
+                  <li><a href="#">更多服装>></a></li>
+               </ul>
+            </div>
+            <div class="floor-banner">
+               <div class="banner-left lf">
+                  <a href="#"><img src="img/8a81c30442e24649a9c3884962c7f9ab.jpg"/></a>
+                  <a href="#" class="banner-add change">
+                     <h3>拒绝臃肿</h3>
+                     <h3>清仓 5折起</h3>
+                     <h3 style="height: 21px">干练短款按时棉服羽绒服</h3>
+                  </a>
+               </div>
+               <div class="banner-middle lf">
+                  <a href="#"><img src="img/af21e37615a7426b81220ffb8b87297d.jpg" class="change"/></a>
+                  <div class="bannermf">
+                     <h4>GANT/甘特</h4>
+                     <p>商务休闲</p>
+                  </div>
+
+               </div>
+               <div class="banner-right lf">
+                  <a href="#"><img src="img/07162351d8654a80bbd7d947a900cec8.jpg"class="change"/></a><a href="#"><img src="img/7505a1af3cc14d40a60705358133c7b5.jpg" class="change"/></a><a href="#"><img src="img/268373ccc91a4016b723dc2e2600b808.jpg"class="change"/></a><a href="#"><img src="img/7505a1af3cc14d40a60705358133c7b5.jpg"class="change"/></a>
+                  <div class="bannerrf5 bannerr">
+                     <h4>THEONNE</h4>
+                     <p>温暖针织</p>
+                  </div>
+                  <div class="bannerrf4 bannerr">
+                     <h4>TRUSSARDI</h4>
+                     <p>新款上新</p>
+                  </div>
+                  <div class="bannerrf3 bannerr">
+                     <h4>Emporio Armani</h4>
+                     <p>2016秋冬新品</p>
+                  </div>
+                  <div class="bannerrf2 bannerr">
+                     <h4>MaxMara</h4>
+                     <p>精品女装</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="floor03 clear" id="mao6">
+            <div class="floor-searchTop">
+               <ul>
+                  <li>鞋靴</li>
+                  <li>Ferragamo</li>
+                  <li>PRADA</li>
+                  <li>TOD'S</li>
+                  <li>Dolce&Gabana</li>
+                  <li>Blly</li>
+                  <li>Calvin Klein Collection</li>
+                  <li><a href="#">更多鞋靴>></a></li>
+               </ul>
+            </div>
+            <div class="floor-banner">
+               <div class="banner-left lf">
+                  <a href="#"><img src="img/6a3eca40e7af4d8c88455b64484e7da4.jpg"/></a>
+                  <a href="#" class="banner-add change">
+                     <h3>500元起</h3>
+                     <h3>清仓 5折起</h3>
+                     <h3 style="height: 21px">大牌断码清仓</h3>
+                  </a>
+               </div>
+               <div class="banner-middle lf">
+                  <a href="#"><img src="img/191dc38b37ee49e6acac624c71d53928.jpg" class="change"/></a>
+                  <div class="bannermf">
+                     <h4>Calvin Klein Collection</h4>
+                     <p>潮流时尚男鞋</p>
+                  </div>
+
+               </div>
+               <div class="banner-right lf">
+                  <a href="#"><img src="img/4156a8efc25241718c1920fb95084a1a.jpg"class="change"/></a><a href="#"><img src="img/f96f5fd00bd942199ff663961e9bdca0.jpg" class="change"/></a><a href="#"><img src="img/0fc46565631b4ded97eab181885e4f05.jpg"class="change"/></a><a href="#"><img src="img/a7b805a9580640a4bfa9971b64aa17ae.jpg"class="change"/></a>
+                  <div class="bannerrf5 bannerr">
+                     <h4>Roger Vivier</h4>
+                     <p>秋款上季</p>
+                  </div>
+                  <div class="bannerrf4 bannerr">
+                     <h4>CHARRIOL</h4>
+                     <p>时尚男鞋专场</p>
+                  </div>
+                  <div class="bannerrf3 bannerr">
+                     <h4>BENATIVE</h4>
+                     <p>时尚女鞋专场</p>
+                  </div>
+                  <div class="bannerrf2 bannerr">
+                     <h4>LANDAX</h4>
+                     <p>男鞋秋冬上新</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="floor03 clear" id="mao7">
+            <div class="floor-searchTop">
+               <ul>
+                  <li>配饰</li>
+                  <li>Ray-Ban</li>
+                  <li>FERRAGAMO</li>
+                  <li>GUCCI</li>
+                  <li>BURBERRY</li>
+                  <li>VERSACE</li>
+                  <li>Hermes</li>
+                  <li><a href="#">更多配饰>></a></li>
+               </ul>
+            </div>
+            <div class="floor-banner">
+               <div class="banner-left lf">
+                  <a href="#"><img src="img/ff95ad345a644ba1bcfb9e19e02f5bae.jpg"/></a>
+                  <a href="#" class="banner-add change">
+                     <h3>男人的品味从围巾开始</h3>
+                     <h3>清仓 5折起</h3>
+                     <h3 style="height: 21px">大牌秋季首选</h3>
+                  </a>
+               </div>
+               <div class="banner-middle lf">
+                  <a href="#"><img src="img/4ed0856f03f2429285a7c9ac98d611f6.jpg" class="change"/></a>
+                  <div class="bannermf">
+                     <h4>BURBERRY</h4>
+                     <p>温暖必备</p>
+                  </div>
+
+               </div>
+               <div class="banner-right lf">
+                  <a href="#"><img src="img/26c02bdb7f324e92838e7bed07122613.jpg"class="change"/></a><a href="#"><img src="img/557dbc2cb58546f199680717042667e6.jpg" class="change"/></a><a href="#"><img src="img/f25111cdd5454a6e8b37c3a947f08dce.jpg"class="change"/></a><a href="#"><img src="img/6f5af46b285e4fa5839f1bcc530f0142.jpg"class="change"/></a>
+                  <div class="bannerrf5 bannerr">
+                     <h4>畅销领带精选</h4>
+                  </div>
+                  <div class="bannerrf4 bannerr">
+                     <h4>JEEP/吉普</h4>
+                     <p>出行必备</p>
+                  </div>
+                  <div class="bannerrf3 bannerr">
+                     <h4>丝巾精选</h4>
+                  </div>
+                  <div class="bannerrf2 bannerr">
+                     <h4>BALLY</h4>
+                     <p>休闲腰带推荐</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="floor03 clear" id="mao8">
+            <div class="floor-searchTop">
+               <ul>
+                  <li>首饰</li>
+                  <li>HERMES</li>
+                  <li>CARTIER</li>
+                  <li>Bvlgari</li>
+                  <li>CHANEL</li>
+                  <li>Tiffany&Co</li>
+                  <li>Swarovski</li>
+                  <li><a href="#">更多首饰>></a></li>
+               </ul>
+            </div>
+            <div class="floor-banner">
+               <div class="banner-left lf">
+                  <a href="#"><img src="img/dbb62dfa5e794b1f8068f5658628709a.jpg"/></a>
+                  <a href="#" class="banner-add change">
+                     <h3>5000元起</h3>
+                     <h3>清仓 5折起</h3>
+                     <h3 style="height: 21px">Tiffany新品上架</h3>
+                  </a>
+               </div>
+               <div class="banner-middle lf">
+                  <a href="#"><img src="img/41bad9e5713645d9af26bcdddc58dcad.jpg" class="change"/></a>
+                  <div class="bannermf">
+                     <h4>HERMES/爱马仕</h4>
+                     <p>品牌精选</p>
+                  </div>
+
+               </div>
+               <div class="banner-right lf">
+                  <a href="#"><img src="img/daf485f7a9614ea4a056d242ee299341.jpg"class="change"/></a><a href="#"><img src="img/915e0beb994945cdad9fb0713a1da969.jpg" class="change"/></a><a href="#"><img src="img/68bc631203864ed3b77f8536307f6671.jpg"class="change"/></a><a href="#"><img src="img/d975babe4b1c4e4b95df3869e6fb2c32.jpg"class="change"/></a>
+                  <div class="bannerrf5 bannerr">
+                     <h4>CHANEL/香奈儿</h4>
+                     <p>品牌精选</p>
+                  </div>
+                  <div class="bannerrf4 bannerr">
+                     <h4>Tiffany</h4>
+                     <p>品牌精选</p>
+                  </div>
+                  <div class="bannerrf3 bannerr">
+                     <h4>ZIGGY/芝一格</h4>
+                     <p>品牌精选</p>
+                  </div>
+                  <div class="bannerrf2 bannerr">
+                     <h4>Swarovski</h4>
+                     <p>品牌精选</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="floor03 clear" id="mao9">
+            <div class="floor-searchTop">
+               <ul>
+                  <li>家居生活</li>
+                  <li>ZIPPO</li>
+                  <li>ZWILLNG</li>
+                  <li>OrangeLife</li>
+                  <li>Beats</li>
+                  <li>philips</li>
+                  <li>Downia</li>
+                  <li><a href="#">更多家居>></a></li>
+               </ul>
+            </div>
+            <div class="floor-banner">
+               <div class="banner-left lf">
+                  <a href="#"><img src="img/8be62a5eb82b4d589a99d0d828bf97ea.jpg"/></a>
+                  <a href="#" class="banner-add change">
+                     <h3>600元起</h3>
+                     <h3>3件8折</h3>
+                     <h3 style="height: 21px">让下厨幸福感爆棚的厨房用品</h3>
+                  </a>
+               </div>
+               <div class="banner-middle lf">
+                  <a href="#"><img src="img/ce96cbc01c5b47cd8e79723084c347a0.jpg" class="change"/></a>
+                  <div class="bannermf">
+                     <h4>家纺被子专场</h4>
+                     <p>限时特惠</p>
+                  </div>
+
+               </div>
+               <div class="banner-right lf">
+                  <a href="#"><img src="img/bcebf6b751634de2a5acc5318e394555.jpg"class="change"/></a><a href="#"><img src="img/322a0bca71b44e7296bf661a02a51759.jpg" class="change"/></a><a href="#"><img src="img/1dbd71f9d57d4a60bdeafbdc02d5d370.jpg"class="change"/></a><a href="#"><img src="img/c861af1f4fb24ae290c32c881d846923.jpg"class="change"/></a>
+                  <div class="bannerrf5 bannerr">
+                     <h4>大牌美容仪专场</h4>
+                     <p>品牌精选</p>
+                  </div>
+                  <div class="bannerrf4 bannerr">
+                     <h4>泰国枕头专场</h4>
+                     <p>品牌特惠</p>
+                  </div>
+                  <div class="bannerrf3 bannerr">
+                     <h4>True Grace</h4>
+                     <p>品牌精选</p>
+                  </div>
+                  <div class="bannerrf2 bannerr">
+                     <h4>电水壶专场</h4>
+                     <p>品牌精选</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         </div>
+
+         </div>
+      </div>
+
+   </section>
+   <!--页脚部分-->
+   <div id="footer-top-del">
+      <img src="img/dao.jpg"/>
+   </div>
+   <footer id="footer">
+
+      <div id="footer-top">
+         <div class="lf">
+            <dl>
+               <dt>新手指南</dt>
+               <dd><a href="#">注册新用户</a></dd>
+               <dd><a href="#">网上订购流程</a></dd>
+               <dd><a href="#">优惠券使用说明</a></dd>
+               <dd><a href="#">海外站购买说明</a></dd>
+               <dd><a href="#">美国站购买说明</a></dd>
+            </dl>
+         </div>
+         <div class="lf">
+            <dl>
+               <dt>付款方式</dt>
+               <dd><a href="#">在线支付</a></dd>
+               <dd><a href="#">库支付</a></dd>
+               <dd><a href="#">银行汇款</a></dd>
+               <dd><a href="#">货到付款</a></dd>
+            </dl>
+         </div>
+         <div class="lf">
+            <dl>
+               <dt>物流配送</dt>
+               <dd><a href="#">管家配送</a></dd>
+               <dd><a href="#">快递配送</a></dd>
+               <dd><a href="#">到店自提</a></dd>
+               <dd><a href="#">配送范围及时间</a></dd>
+               <dd><a href="#">配送政策</a></dd>
+            </dl>
+         </div>
+         <div class="lf">
+            <dl>
+               <dt>售后服务</dt>
+               <dd><a href="#">退换货说明</a></dd>
+               <dd><a href="#">如何办理退款</a></dd>
+               <dd><a href="#">售后服务保养手册</a></dd>
+               <dd><a href="#">奢侈品养护服务</a></dd>
+               <dd><a href="#">奢侈品拍卖置换</a></dd>
+            </dl>
+         </div>
+         <div class="lf" style="width:365px; margin-right:0;color: #000" id="footer-top-rignt">
+            <dl>
+               <dt>跨境体验店</dt>
+               <dd><h4>寺库通过在全球多地设立体验店和办事机构的方式，为高端消费者提供贴心的全球奢侈品一站式服务</h4></dd>
+               <dd>
+                  <ul>
+                     <li><a href="#">北京</a></li>
+                     <li><a href="#">上海</a></li>
+                     <li><a href="#">成都</a></li>
+                  </ul>
+                  <ul>
+                     <li><a href="#">香港</a></li>
+                     <li><a href="#">米兰</a></li>
+                  </ul>
+               </dd>
+            </dl>
+         </div>
+         <div class="lf">
+            <img src="img/di.jpg"/>
+         </div>
+      </div>
+      <div id="footer-bottom">
+         <div id="footer-bottom-left" class="lf">
+               <div>
+                  <ul>
+                     <li><a href="#">寺库网</a></li>
+                     <li><a href="#">寺库奢侈品养护</a></li>
+                     <li><a href="#">寺库招商</a></li>
+                     <li><a href="#">寺库加盟店</a></li>
+                  </ul>
+               </div>
+               <div>
+                  <ul>
+                     <li><a href="#">统一社会信用代码：91110102689248179k</a></li>
+                     <li><a href="#"><span ></span>京公安备11010102001392</a></li>
+                     <li><a href="#">京ICP证110119号 京ICP备09084709号-3</a></li>
+                     <li><a href="#">ISO9001中国质量管理体系认证</a></li>
+                  </ul>
+               </div>
+               <div>
+                  <ul>
+                     <li><a href="#">加入寺库</a></li>
+                     <li><a href="#">练习我们</a></li>
+                     <li><a href="#">关于寺库</a></li>
+                     <li><a href="#">帮助中心</a></li>
+                     <li><a href="#">寺库微博</a></li>
+                     <li><a href="#">友情链接</a></li>
+                     <li><a href="#">奢侈品热词</a></li>
+                     <li><a href="#">奢侈品资讯</a></li>
+                  </ul>
+               </div>
+               <div>
+                  <ul>
+                     <li><a href="#">COPYRIGHT © 2010-2016北京寺库商贸有限公司 版权所有</a></li>
+                  </ul>
+               </div>
+               <div>
+                  <ul>
+                     <li><a href="#"><img src="img/f_01.jpg"></a></li>
+                     <li><a href="#"><img src="img/f_04.jpg"></a></li>
+                     <li><a href="#"><img src="img/cnnic.png"></a></li>
+                     <li><a href="#"><img src="img/kexin.jpg"></a></li>
+                     <li><a href="#"><img src="img/f_03.jpg"></a></li>
+                  </ul>
+               </div>
+         </div>
+         <div id="footer-bottom-middle" class="lf footer-apprt">
+            <img src="img/app1.jpg"/>
+            <p>手机客户端</p>
+         </div>
+         <div id="footer-bottom-right" class="lf footer-apprt">
+            <img src="img/sk_ewm0827.jpg"/>
+            <p>官方微信</p>
+         </div>
+      </div>
+   </footer>
+
+   <script src="js/jquery-1.11.3.js"></script>
+   <script src="js/jquery-ui.js"></script>
+   <script src="js/siku.js"></script>
+   <script src="js/floor.js">
+
+   </script>
+</body>
+</html>

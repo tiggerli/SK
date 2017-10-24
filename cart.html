@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="UTF-8">
+   <title></title>
+   <link rel="stylesheet" href="css/indexcss.css"/>
+   <link rel="stylesheet" href="css/cart.css"/>
+</head>
+<body>
+      <div id="carttofixed">
+         <div id="carttofixed01">
+            <h2>您真的要删除该行记录吗？</h2>
+            <input type="button" value="确定" id="ok"/><br/>
+            <input type="button" value="取消" id="err"/>
+         </div>
+      </div>
+      <div id="cartheader">
+         <img src="img/logo.png"/>
+         <h3>我的购物车&gt;&gt;</h3>
+      </div>
+   <div id="cartsection">
+      <div class="tab-header"><p>您购物车里的商品将会永久保存 <a href="index.html">返回主页面</a></p></div>
+         <table>
+            <thead>
+            <tr>
+               <td>
+                  <input type="checkbox"/>全选
+               </td>
+               <td>
+                  商品名称
+               </td>
+               <td>
+                  发货站
+               </td>
+               <td>
+                  价格
+               </td>
+               <td>
+                  数量
+               </td>
+               <td>
+                  商品单价
+               </td>
+               <td>
+                  操作
+               </td>
+            </tr>
+            </thead>
+            <tbody id="tbodyadd">
+
+            </tbody>
+         </table>
+      <div class="jie">
+         <p>商品总金额（不含税金和运费）</p>
+         <p class="bac" id="zongshop">￥25645</p>
+         <p><a href="#"><img src="img/jie.jpg"/></a></p>
+      </div>
+   </div>
+   <footer id="footer"></footer>
+      <script src="js/jquery-1.11.3.js"></script>
+      <script src="js/cartdeil.js"></script>
+</body>
+</html>
